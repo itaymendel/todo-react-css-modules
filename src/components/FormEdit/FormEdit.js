@@ -52,7 +52,7 @@ export default class FormEdit extends Component {
 
   render() {
     return (
-      <li className="form_edit__component list-group-item">
+      <li className={classnames(styles.component, 'list-group-item')}>
         <form method="POST" onSubmit={this.handleEditAndResetForm}>
           <div className="form-row">
             <div className="col">
